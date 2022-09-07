@@ -1,0 +1,87 @@
+body {
+	background: linear-gradient(#D8DFE8,#0A3871);
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+header{
+	margin: 40px;
+}
+
+main{}
+
+.criptografar{
+	width: 680px;
+	height: 288px;
+}
+
+textarea {
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	color: #0A3871;
+}
+
+.criptografar textarea{
+	background: #D8DFE8;
+	font-size: 32px;
+}
+
+.botao-criptografar {
+	display: inline-block;
+	width: 328px;
+	height: 67px;
+	padding: 24px;
+
+	background: #0A3871;
+	border-radius: 24px;
+	border: none;
+
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 19px;
+
+}
+.botao-descriptografar {
+	display: inline-block;
+	width: 328px;
+	height: 67px;
+	padding: 24px;
+
+	background: no-repeat;
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+
+	color: #0A3871;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.criptografado textarea {
+	background: #EEEEEE;
+	font-size: 24px;
+}
+.botao-copiar{
+	width: 328px;
+	height: 67px;
+	padding: 24px;
+
+	background: no-repeat;
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+
+	color: #0A3871;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+footer{
+	background: #0A3871;
+}
+footer p {
+	font-size: 0.8em;
+	text-align: center;
+	color: #FFFFFF;
+}
