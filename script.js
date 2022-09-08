@@ -1,6 +1,6 @@
 const inputTexto = document.querySelector(".texto-inicial");
 const mensagem = document.querySelector(".texto-resultante");
 
-function botaoEncriptar() {
+function botaoEncriptar(){
 	console.log("clic");// body...
 }
