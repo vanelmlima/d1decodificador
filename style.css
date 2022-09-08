@@ -1,15 +1,29 @@
-body {
-	background: linear-gradient(#D8DFE8,#0A3871);
+*  {
 	font-family: 'Inter', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 }
 
-header{
-	margin: 40px;
+body {
+	background: linear-gradient(#D8DFE8,#0A3871);
 }
 
-main{}
+header{
+	margin: 40px;
+
+}
+.logo {
+	width: 10%;
+}
+h1{
+	display: inline-block;
+	text-align: center;
+	width: 90%;
+}
+
+main{
+	display: flex;
+}
 
 .criptografar{
 	width: 680px;
