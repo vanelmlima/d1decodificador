@@ -2,18 +2,16 @@
 	font-family: 'Inter', sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	
 }
 
 body {
 	background: linear-gradient(#D8DFE8,#0A3871);
 }
 
-header{
-	margin: 40px;
-
-}
-.logo {
+.logo-alura {
 	width: 10%;
+	margin: 40px;
 }
 h1{
 	display: inline-block;
@@ -31,17 +29,13 @@ main{
 	height: 288px;
 }
 
-textarea {
-	font-family: 'Inter', sans-serif;
-	font-style: normal;
-	font-weight: 400;
+.campo-texto{
+	display: flex;
 	line-height: 150%;
 	color: #0A3871;
-}
-
-.criptografar textarea{
 	background: #D8DFE8;
 	font-size: 32px;
+
 }
 
 .botao-criptografar {
