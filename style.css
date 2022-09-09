@@ -9,31 +9,35 @@ body {
 	background: linear-gradient(#D8DFE8,#0A3871);
 }
 
+header {
+	display: flex;
+}
+
 .logo-alura {
-	width: 10%;
 	margin: 40px;
+	display: inline-block;
+	height: fit-content;
 }
 h1{
 	display: inline-block;
 	text-align: center;
-	width: 90%;
 	color: #0A3871;
+	width: auto;
 }
 
-main{
-	display: flex;
-}
+.input-texto{
+	position: absolute;
+	width: 600px;
+	height: 400px;
+	left: 240px;
+	top: 120px;
+	background: no-repeat;
+	
+	border: none;
+	border-radius: 10px;
 
-.criptografar{
-	width: 680px;
-	height: 288px;
-}
-
-.campo-texto{
-	display: flex;
 	line-height: 150%;
 	color: #0A3871;
-	background: #D8DFE8;
 	font-size: 32px;
 
 }
@@ -68,10 +72,11 @@ main{
 	line-height: 19px;
 }
 
-.criptografado textarea {
+.saida-texto {
 	background: #EEEEEE;
 	font-size: 24px;
 }
+
 .botao-copiar{
 	width: 328px;
 	height: 67px;
