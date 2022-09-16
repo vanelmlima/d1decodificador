@@ -8,18 +8,21 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style.css">
 		<title>Codificador e Decodificador de Textos</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 		
 		<header>
 			<img class="logo-alura" src="images/logoalura.png" alt="logo da alura letra a">
-			<h1>CODIFICADOR E DECODIFICADOR DE TEXTOS</h1>
+			<h1 class="titulo">CODIFICADOR E DECODIFICADOR DE TEXTOS</h1>
 		</header>
 		<main>
 			<section class="criptografar">
 				<textarea class="input-texto" id="texto-inicial" placeholder="Digite seu texto" type="text"></textarea>
+				<div class="aviso">
+					<label for="input-texto">Apenas letras minúsculas e sem acento.</label>
+				</div>
 				<div class="botoes">
 					<button class="botao-criptografar" onclick="botaoEncriptar()">Criptografar</button>
 					<button class="botao-descriptografar" onclick="botaoDescriptar()">Descriptografar</button>
