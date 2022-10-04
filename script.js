@@ -35,6 +35,13 @@ function desencriptar(stringEncriptada) {
 	return stringEncriptada;
 }
 
+function botaoCopiar() {
+  let copyText = document.querySelector("#texto-resultante");
+  copyText.select();
+  document.execCommand("copy");
+}
+
+document.querySelector("#copiar").addEventListener("click", copy);
 
 
 

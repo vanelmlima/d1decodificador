@@ -11,18 +11,21 @@
 		<title>Codificador e Decodificador de Textos</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
-	<body>
+	<body class="pagina">
 		
-		<header>
+		<header class="cabecalho">
 			<img class="logo-alura" src="images/logoalura.png" alt="logo da alura letra a">
 			<h1 class="titulo">CODIFICADOR E DECODIFICADOR DE TEXTOS</h1>
 		</header>
-		<main>
+		<main class="principal">
 			<section class="criptografar">
-				<textarea class="input-texto" id="texto-inicial" placeholder="Digite seu texto" type="text"></textarea>
-				<div class="aviso">
-					<label for="input-texto">Apenas letras minúsculas e sem acento.</label>
+				<div class="texto-e-aviso">
+					<textarea class="input-texto" id="texto-inicial" placeholder="Digite seu texto" type="text"></textarea>
+					<div class="aviso">
+						<label for="input-texto">🛈 Apenas letras minúsculas e sem acento.</label>
+					</div>	
 				</div>
+				
 				<div class="botoes">
 					<button class="botao-criptografar" onclick="botaoEncriptar()">Criptografar</button>
 					<button class="botao-descriptografar" onclick="botaoDescriptar()">Descriptografar</button>
@@ -31,11 +34,11 @@
 			</section>
 			<section class="criptografado">
 				<textarea class="saida-texto" id="texto-resultante"></textarea>
-				<button class="botao-copiar">Copiar</button>
+				<button class="botao-copiar" id="copiar" onclick="botaoCopiar()">Copiar</button>
 			</section>
 		</main>
 
-		<footer>
+		<footer class="rodape">
 			<section class="dados-desenvolvedora">
 				<p>Desenvolvido por:</p>
 				<p><a href="https://cursos.alura.com.br/user/vanessalmlima">Vanessa L M Lima</a></p>
