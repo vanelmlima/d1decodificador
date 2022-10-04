@@ -41,7 +41,6 @@ function botaoCopiar() {
   document.execCommand("copy");
 }
 
-document.querySelector("#copiar").addEventListener("click", copy);
 
 
 
